@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delfi's Vinyl Collection</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<div id="custom-cursor">
+  <img src="assets/vinyl-cursor-32.png" alt="cursor vinyl" />
+</div>
+
+<body>
+  <main class="app-container">
+    <!-- PANTALLA 1: BIBLIOTECA -->
+    <section id="library-view" class="library-view">
+      <div id="vinyl-shelf" class="vinyl-shelf"></div>
+    </section>
+
+    <!-- PANTALLA 2: REPRODUCTOR -->
+    <section id="player-view" class="player-view" style="display: none">
+      <div class="player-card">
+        <button id="back-button" class="back-button">×</button>
+        <div class="player-text">
+          <p id="player-artist" class="player-artist"></p>
+          <h2 id="player-title" class="player-title"></h2>
+        </div>
+        <div id="center-player" class="center-player"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
