@@ -62,7 +62,7 @@ const albums = [
   {
     title: "El Madrileño",
     artist: "C. Tangana",
-    cover: "assets/covers_elMadrileño.png",
+    cover: "assets/covers_elMadrileno.png",
     tracks: 9,
     spotifyEmbed:
       "https://open.spotify.com/embed/album/52QyC9nSbgtHFXyQRHsXJ9?utm_source=generator",
